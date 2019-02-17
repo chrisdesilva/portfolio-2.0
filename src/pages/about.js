@@ -1,84 +1,31 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerLanding from '../components/BannerLanding'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import guitar from '../assets/images/travelguitar.jpg'
 
-const Landing = (props) => (
+const Generic = (props) => (
     <Layout>
         <Helmet>
             <title>Chris DeSilva - About</title>
-            <meta name="description" content="Landing Page" />
+            <meta name="description" content="Generic Page" />
         </Helmet>
 
-        <BannerLanding />
-
-        <div id="main">
+        <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>About Me</h2>
+                        <h1>About Me</h1>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <span className="image main"><img src={guitar} alt="playing guitar in the woods" /></span>
+                    <p>I started teaching middle school in 2011 after serving with an AmeriCorps program called City Year. I've enjoyed building relationships with students and finding different ways to connect throughout the years. I picked up an interest in writing code after leading an elective for students using Code.org. That interest eventually triggered the decision to learn about development more formally through Austin Coding Academy. Since then I've worked on a handful of personal and freelance projects while directing my own learning on JavaScript frameworks.</p>
+                    <p>When I'm not writing code, I enjoy anything active or outdoors. I grew up as an avid sports fan and try to keep up with anything Cubs, Cowboys, or Badgers-related. I love getting on stage and performing with my band as much as working on new music at home or at practice. Between cross-country road trips and checking out different countries (ok, well just one country so far, but Costa Rica is awesome and I want to go back), I enjoy any opportunity to travel. </p>
+                    <p>Having gained a number of soft skills through teaching and leadership roles, I aim to build on my tech skills to eventually serve as a mentor to new developers. I enjoy writing code and learning about new technologies and look forward to being able to share my knowledge with others.</p>
                 </div>
-            </section>
-            <section id="two" className="spotlights">
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Orci maecenas</h3>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Rhoncus magna</h3>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Sed nunc ligula</h3>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
             </section>
         </div>
 
     </Layout>
 )
 
-export default Landing
+export default Generic
