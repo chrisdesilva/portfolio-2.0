@@ -18,9 +18,15 @@ const Generic = (props) => (
                         <h1>About Me</h1>
                     </header>
                     <span className="image main"><img src={guitar} alt="playing guitar in the woods" /></span>
-                    <p>I started teaching middle school in 2011 after serving with an AmeriCorps program called City Year. I've enjoyed building relationships with students and finding different ways to connect throughout the years. I picked up an interest in writing code after leading an elective for students using Code.org. That interest eventually triggered the decision to learn about development more formally through Austin Coding Academy. Since then I've worked on a handful of personal and freelance projects while directing my own learning on JavaScript frameworks.</p>
-                    <p>When I'm not writing code, I enjoy anything active or outdoors. I grew up as an avid sports fan and try to keep up with anything Cubs, Cowboys, or Badgers-related. I love getting on stage and performing with my band as much as working on new music at home or at practice. Between cross-country road trips and checking out different countries (ok, well just one country so far, but Costa Rica is awesome and I want to go back), I enjoy any opportunity to travel. </p>
-                    <p>Having gained a number of soft skills through teaching and leadership roles, I aim to build on my tech skills to eventually serve as a mentor to new developers. I enjoy writing code and learning about new technologies and look forward to being able to share my knowledge with others.</p>
+                    <p>
+                        I started teaching middle school in 2011 after serving with AmeriCorps.  My favorite part about teaching is building relationships with my students and colleagues and taking on leadership roles. I picked up an interest in writing code after teaching an elective for students using Code.org. I decided to formally pursue this interest through the Austin Coding Academy in 2018. Since then, I’ve worked on a handful of personal and freelance projects while directing my own learning. 
+                    </p>
+                    <p>
+                        What I love about coding is that I am able to blend my creative and analytical sides to produce something really cool.  I love learning about and experimenting with new technologies and I look forward to sharing my knowledge with others.  I plan to apply the skills I’ve gained through teaching and leadership roles to eventually serve as a mentor to new developers. 
+                    </p>
+                    <p>
+                        When I’m not writing code, I enjoy sports (Go Cubs!) and the outdoors. I taught myself how to play guitar in high school and have been performing ever since. I enjoy any opportunity to travel. I currently reside outside Austin, Texas with my wife and two crazy dogs. 
+                    </p>
                 </div>
             </section>
         </div>
