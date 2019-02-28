@@ -6,7 +6,7 @@ import Banner from '../components/Banner'
 import banisters from '../assets/images/BanistersSkipping-min.jpg'
 import history from '../assets/images/Historyheroes.jpg'
 import math from '../assets/images/math.png'
-import mouph from '../assets/images/mouph.png'
+import vocab from '../assets/images/popupvocab.png'
 
 class HomeIndex extends React.Component {
     render() {
@@ -46,12 +46,12 @@ class HomeIndex extends React.Component {
                             </header>
                             <a href="https://math-practice-desilva.herokuapp.com" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
-                        <article style={{backgroundImage: `url(${mouph})`}}>
+                        <article style={{backgroundImage: `url(${vocab})`}}>
                             <header className="major">
-                                <h3>mouph.com</h3>
-                                <p>Musician booking website built with Gatsby</p>
+                                <h3>Popup Vocab</h3>
+                                <p>React app to study vocabulary terms with definitions and pictures</p>
                             </header>
-                            <a href="https://www.mouph.com" target="_blank" rel="noopener noreferrer" className="link primary"></a>
+                            <a href="https://popupvocab.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
                     </section>
                     <section id="two">

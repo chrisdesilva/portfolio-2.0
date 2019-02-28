@@ -6,7 +6,7 @@ import BannerLanding from '../components/BannerLanding'
 import history from '../assets/images/Historyheroes.jpg'
 import banisters from '../assets/images/BanistersBus-min.jpg'
 import math from '../assets/images/mathsq.png'
-import mouph from '../assets/images/mouphsq.png'
+import vocab from '../assets/images/popupvocab.png'
 
 const Landing = (props) => (
     <Layout>
@@ -68,7 +68,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Practice Math</h3>
                             </header>
-                            <p>Students need lots of repetition with basic math operations in order to tackle more complicated topics in higher levels of math. I made the Math Practice app to give students an interactice way to practice their skills, giving feedback on accuracy and overall performance. This was a challenging project to build with React given the logic involved. I had the most trouble with the division problems but was excited when I got everything up and running.</p>
+                            <p>Students need lots of repetition with basic math operations in order to tackle more complicated topics in higher levels of math. I made the Math Practice app to give students an interactice way to practice their skills, giving feedback on accuracy and overall performance. This was a challenging project to build with React given the logic involved. I had the most trouble with the division problem logic but was excited when I got everything up and running.</p>
                             <ul className="actions">
                                 <li><a href="https://github.com/chrisdesilva/math-flashcards-react-app" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
                             </ul>
@@ -76,17 +76,17 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <a href="https://mouph.com/" target="_blank" rel="noopener noreferrer" className="image">
-                        <img src={mouph} alt="mouph.com screenshot" />
+                    <a href="https://popupvocab.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="image">
+                        <img src={vocab} alt="Popup Vocab screenshot" />
                     </a>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Mouph Booking Website</h3>
+                                <h3>Popup Vocab</h3>
                             </header>
-                            <p>Since our band started I've been in charge of handling booking shows. I reached out to a few other local bands to see if we could collaborate and mouph.com was born. I initially created a React version of the site but updated it after learning about Gatsby.</p>
+                            <p>I've always liked finding ways for students to engage in learning vocabulary. One consistent trend I've noticed is that the use of images tremendously helpful for making words stick. This app allows users to add words, definitions, and images for new terms. Clicking on the term pops up a modal with the definition and image, allowing students to practice linking words with their meaning.</p>
                             <ul className="actions">
-                                <li><a href="https://github.com/chrisdesilva/gatsby-mouph" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
+                                <li><a href="https://github.com/chrisdesilva/react-vocab" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
                             </ul>
                         </div>
                     </div>
