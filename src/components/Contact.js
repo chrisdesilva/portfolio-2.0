@@ -1,11 +1,11 @@
 import React from 'react'
-import suit from '../assets/images/suitandtie.jpg'
+import hana from '../assets/images/roadtohana.jpg'
 
 const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <div>
-                <img className="image fit" src={suit} />
+                <img className="image fit" src={hana} />
             </div>
             <section className="split">
                 <section>
