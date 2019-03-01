@@ -68,7 +68,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Practice Math</h3>
                             </header>
-                            <p>Students need lots of repetition with basic math operations in order to tackle more complicated topics in higher levels of math. I made the Math Practice app to give students an interactice way to practice their skills, giving feedback on accuracy and overall performance. This was a challenging project to build with React given the logic involved. I had the most trouble with the division problem logic but was excited when I got everything up and running.</p>
+                            <p>Students need lots of repetition with basic math operations in order to tackle more complicated topics in higher levels of math. I made a math practice app to give students an interactice way to practice their skills, giving feedback on accuracy and overall performance. This was a challenging project to build with React given the logic involved. I had the most trouble with the division problem logic but was excited when I got everything up and running.</p>
                             <ul className="actions">
                                 <li><a href="https://github.com/chrisdesilva/math-flashcards-react-app" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
                             </ul>
@@ -84,7 +84,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Popup Vocab</h3>
                             </header>
-                            <p>I've always liked finding ways for students to engage in learning vocabulary. One consistent trend I've noticed is that the use of images tremendously helpful for making words stick. This app allows users to add words, definitions, and images for new terms. Clicking on the term pops up a modal with the definition and image, allowing students to practice linking words with their meaning.</p>
+                            <p>I've always liked finding ways for students to engage in learning vocabulary. One consistent trend I've noticed is that the use of images is tremendously helpful for making words stick. This app allows users to add words, definitions, and images for new terms. Clicking on the term pops up a modal with the definition and image, allowing students to practice linking words with their meaning.</p>
                             <ul className="actions">
                                 <li><a href="https://github.com/chrisdesilva/react-vocab" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
                             </ul>
