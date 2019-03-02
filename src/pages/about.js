@@ -19,7 +19,7 @@ const Generic = (props) => (
                     </header>
                     <span className="image main"><img src={guitar} alt="playing guitar in the woods" /></span>
                     <p>
-                        I started teaching middle school in 2011 after serving with AmeriCorps.  My favorite part about teaching is building relationships with my students and colleagues and taking on leadership roles. I picked up an interest in writing code after teaching an elective for students using Code.org. I decided to formally pursue this interest through the Austin Coding Academy in 2018. Since then, I’ve worked on a handful of personal and freelance projects while directing my own learning. 
+                        I started teaching middle school in 2011 after serving with AmeriCorps.  My favorite part has been building relationships with my students and colleagues and taking on leadership roles. I picked up an interest in writing code after teaching an elective for students using Code.org and decided to formally develop my skills through the Austin Coding Academy in 2018. Since then, I’ve worked on a handful of personal and freelance projects while directing my own learning. 
                     </p>
                     <p>
                         What I love about coding is that I am able to blend my creative and analytical sides to produce something really cool.  I love learning about and experimenting with new technologies and I look forward to sharing my knowledge with others.  I plan to apply the skills I’ve gained through teaching and leadership roles to eventually serve as a mentor to new developers. 
