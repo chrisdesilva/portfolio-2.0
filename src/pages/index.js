@@ -30,7 +30,7 @@ class HomeIndex extends React.Component {
                                 <h3>History Heroes</h3>
                                 <p>A review game built with React</p>
                             </header>
-                            <a href="https://history-review.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
+                            <a href="https://historyheroes.netlify.com" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
                         <article style={{backgroundImage: `url(${banisters})`}}>
                             <header className="major">
@@ -44,14 +44,14 @@ class HomeIndex extends React.Component {
                                 <h3>Math Practice</h3>
                                 <p>App for practicing math facts, built with React</p>
                             </header>
-                            <a href="https://math-practice-desilva.herokuapp.com" target="_blank" rel="noopener noreferrer" className="link primary"></a>
+                            <a href="https://math-practice.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
                         <article style={{backgroundImage: `url(${vocab})`}}>
                             <header className="major">
                                 <h3>Popup Vocab</h3>
                                 <p>React app to study vocabulary terms with definitions and pictures</p>
                             </header>
-                            <a href="https://popupvocab.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
+                            <a href="https://popupvocab.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
                     </section>
                     <section id="two">

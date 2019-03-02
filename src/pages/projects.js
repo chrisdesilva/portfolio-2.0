@@ -28,7 +28,7 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <a href="https://history-review.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="image main">
+                    <a href="https://historyheroes.netlify.com" target="_blank" rel="noopener noreferrer" className="image main">
                         <img src={history} alt="Screenshot of app scoreboard" />
                     </a>
                     <div className="content">
@@ -60,7 +60,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <a href="https://math-practice-desilva.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="image">
+                    <a href="https://math-practice.netlify.com/" target="_blank" rel="noopener noreferrer" className="image">
                         <img src={math} alt="math problem screenshot" />
                     </a>
                     <div className="content">
@@ -76,7 +76,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <a href="https://popupvocab.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="image">
+                    <a href="https://popupvocab.netlify.com/" target="_blank" rel="noopener noreferrer" className="image">
                         <img src={vocab} alt="Popup Vocab screenshot" />
                     </a>
                     <div className="content">
