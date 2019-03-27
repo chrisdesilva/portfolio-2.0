@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
 import history from '../assets/images/Historyheroes.jpg'
-import banisters from '../assets/images/BanistersBus-min.jpg'
+import weather from '../assets/images/weather-landscape.png'
 import math from '../assets/images/mathsq.png'
 import vocab from '../assets/images/popupvocab.png'
 
@@ -44,17 +44,17 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <a href="https://www.thebanistersmusic.com" target="_blank" rel="noopener noreferrer" className="image main">
-                        <img src={banisters} alt="The Banisters standing in front of a graffiti art bus" />
+                    <a href="https://weathereport.netlify.com/" target="_blank" rel="noopener noreferrer" className="image main">
+                        <img src={weather} alt="Cartoon landscape with mountains and trees" />
                     </a>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>The Banisters Website</h3>
+                                <h3>WeatheReport</h3>
                             </header>
-                            <p>Our band needed a website to promote upcoming shows, new releases, and general information to help with booking. I used Bootstrap to create a responsive site with a mobile-first design.</p>
+                            <p>I wanted to practice making API calls in a React app and decided to pull weather data from openweathermap.org. This project taught me a bit more about making dynamic API calls with input from the user.</p>
                             <ul className="actions">
-                                <li><a href="https://github.com/chrisdesilva/The-Banisters-Website/tree/master" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
+                                <li><a href="https://github.com/chrisdesilva/weather-react-app" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
                             </ul>
                         </div>
                     </div>

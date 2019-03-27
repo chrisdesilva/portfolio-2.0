@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import banisters from '../assets/images/BanistersSkipping-min.jpg'
+import weather from '../assets/images/weather-landscape.png'
 import history from '../assets/images/Historyheroes.jpg'
 import math from '../assets/images/math.png'
 import vocab from '../assets/images/popupvocab.png'
@@ -32,12 +32,12 @@ class HomeIndex extends React.Component {
                             </header>
                             <a href="https://historyheroes.netlify.com" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
-                        <article style={{backgroundImage: `url(${banisters})`}}>
+                        <article style={{backgroundImage: `url(${weather})`}}>
                             <header className="major">
-                                <h3>thebanistersmusic.com</h3>
-                                <p>Band website built with HTML, CSS, and JavaScript</p>
+                                <h3>WeatheReport</h3>
+                                <p>React app that shows current weather in a given zip code</p>
                             </header>
-                            <a href="https://www.thebanistersmusic.com" target="_blank" rel="noopener noreferrer" className="link primary"></a>
+                            <a href="https://weathereport.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
                         <article style={{backgroundImage: `url(${math})`}}>
                             <header className="major">
