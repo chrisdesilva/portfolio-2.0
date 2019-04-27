@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
 import weather from '../assets/images/weather-landscape.png'
-import history from '../assets/images/Historyheroes.jpg'
+import banisters from '../assets/images/BanistersBus-min.jpg'
 import math from '../assets/images/math.png'
 import vocab from '../assets/images/popupvocab.png'
 
@@ -25,12 +25,12 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${history})`}}>
+                        <article style={{backgroundImage: `url(${banisters})`}}>
                             <header className="major">
-                                <h3>History Heroes</h3>
-                                <p>A review game built with React</p>
+                                <h3>The Banisters</h3>
+                                <p>Band website built with HTML, CSS, and JavaScript</p>
                             </header>
-                            <a href="https://historyheroes.netlify.com" target="_blank" rel="noopener noreferrer" className="link primary"></a>
+                            <a href="https://www.thebanistersmusic.com" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
                         <article style={{backgroundImage: `url(${weather})`}}>
                             <header className="major">
