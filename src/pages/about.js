@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import guitar from '../assets/images/travelguitar.jpg'
+import suit from '../assets/images/suitandtie.jpg'
 
 const Generic = (props) => (
     <Layout>
@@ -17,7 +17,7 @@ const Generic = (props) => (
                     <header className="major">
                         <h1>About Me</h1>
                     </header>
-                    <span className="image main"><img src={guitar} alt="playing guitar in the woods" /></span>
+                    <span className="image main"><img src={suit} alt="playing guitar in the woods" /></span>
                     <p>
                         I started teaching middle school in 2011 after serving with AmeriCorps.  My favorite part has been building relationships with my students and colleagues and taking on leadership roles. I picked up an interest in writing code after teaching an elective for students using Code.org and decided to formally develop my skills through the Austin Coding Academy in 2018. Since then, I’ve worked on a handful of personal and freelance projects while directing my own learning. 
                     </p>
