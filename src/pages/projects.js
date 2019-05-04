@@ -5,7 +5,7 @@ import BannerLanding from '../components/BannerLanding'
 
 import banisters from '../assets/images/BanistersBus-min.jpg'
 import weather from '../assets/images/weather-landscape.png'
-import math from '../assets/images/mathsq.png'
+import jeopardy from '../assets/images/openjeopardy.png'
 import vocab from '../assets/images/popupvocab.png'
 
 const Landing = (props) => (
@@ -60,17 +60,17 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <a href="https://math-practice.netlify.com/" target="_blank" rel="noopener noreferrer" className="image">
-                        <img src={math} alt="math problem screenshot" />
+                    <a href="https://openjeopardy.netlify.com/" target="_blank" rel="noopener noreferrer" className="image">
+                        <img src={jeopardy} alt="open jeopardy game board screenshot" />
                     </a>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Practice Math</h3>
+                                <h3>Open Jeopardy</h3>
                             </header>
-                            <p>Students need lots of repetition with basic math operations in order to tackle more complicated topics in higher levels of math. I made a math practice app to give students an interactice way to practice their skills, giving feedback on accuracy and overall performance. This was a challenging project to build with React given the logic involved. I had the most trouble with the division problem logic but was excited when I got everything up and running.</p>
+                            <p>Students have always enjoyed playing review games, so Open Jeopardy is an attempt to mix up the traditional feel of the classic quiz show with a bit more flexibility around categories and scoring. This project uses React and makes use of Hooks in addition to class-based components. I'm continuing to add to this project so check back for updates!</p>
                             <ul className="actions">
-                                <li><a href="https://github.com/chrisdesilva/math-flashcards-react-app" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
+                                <li><a href="https://github.com/chrisdesilva/open-jeopardy" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
                             </ul>
                         </div>
                     </div>

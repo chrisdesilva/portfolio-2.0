@@ -5,7 +5,7 @@ import Banner from '../components/Banner'
 
 import weather from '../assets/images/weather-landscape.png'
 import banisters from '../assets/images/BanistersBus-min.jpg'
-import math from '../assets/images/math.png'
+import jeopardy from '../assets/images/openjeopardy.png'
 import vocab from '../assets/images/popupvocab.png'
 
 class HomeIndex extends React.Component {
@@ -39,12 +39,12 @@ class HomeIndex extends React.Component {
                             </header>
                             <a href="https://weathereport.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
-                        <article style={{backgroundImage: `url(${math})`}}>
+                        <article style={{backgroundImage: `url(${jeopardy})`}}>
                             <header className="major">
-                                <h3>Math Practice</h3>
-                                <p>App for practicing math facts, built with React</p>
+                                <h3>Open Jeopardy</h3>
+                                <p>App for playing Jeopardy-style quiz game, built with React</p>
                             </header>
-                            <a href="https://math-practice.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
+                            <a href="https://openjeopardy.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
                         <article style={{backgroundImage: `url(${vocab})`}}>
                             <header className="major">
