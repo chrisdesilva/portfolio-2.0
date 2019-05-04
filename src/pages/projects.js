@@ -60,7 +60,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <a href="https://openjeopardy.netlify.com/" target="_blank" rel="noopener noreferrer" className="image">
+                    <a href="https://openjeopardy.netlify.com/" target="_blank" rel="noopener noreferrer" className="image main">
                         <img src={jeopardy} alt="open jeopardy game board screenshot" />
                     </a>
                     <div className="content">
@@ -76,7 +76,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <a href="https://popupvocab.netlify.com/" target="_blank" rel="noopener noreferrer" className="image">
+                    <a href="https://popupvocab.netlify.com/" target="_blank" rel="noopener noreferrer" className="image main">
                         <img src={vocab} alt="Popup Vocab screenshot" />
                     </a>
                     <div className="content">
