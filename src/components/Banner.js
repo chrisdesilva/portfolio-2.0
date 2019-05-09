@@ -7,7 +7,7 @@ const Banner = (props) => (
                 <h1>Hey, I'm Chris DeSilva</h1>
             </header>
             <div className="content">
-                <p>I learned to code while teaching middle school. Imagine what I could accomplish when I’m working with you.  Check out some of my projects below. </p>
+                <p>I'm a full-stack developer specializing in JavaScript with React and Node. Passionate about compassionate communication, cross-discipline collaboration, and my two crazy dogs. </p>
                 <ul className="actions">
                     <li><a href="mailto:chris.a.desilva@gmail.com"  className="button">Get In Touch</a></li>
                 </ul>
