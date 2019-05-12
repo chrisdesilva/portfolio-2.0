@@ -3,10 +3,10 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import weather from '../assets/images/weather-landscape.png'
+import donorsList from '../assets/images/donorslist.png'
 import banisters from '../assets/images/BanistersBus-min.jpg'
 import jeopardy from '../assets/images/openjeopardy.png'
-import vocab from '../assets/images/popupvocab.png'
+import pickup from '../assets/images/pickup.png'
 
 class HomeIndex extends React.Component {
     render() {
@@ -32,26 +32,26 @@ class HomeIndex extends React.Component {
                             </header>
                             <a href="https://www.thebanistersmusic.com" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
-                        <article style={{backgroundImage: `url(${weather})`}}>
+                        <article style={{backgroundImage: `url(${pickup})`}}>
                             <header className="major">
-                                <h3>WeatheReport</h3>
-                                <p>React app that shows current weather in a given zip code</p>
+                                <h3>Pick-up</h3>
+                                <p>React app that displays nearby basketball courts</p>
                             </header>
-                            <a href="https://weathereport.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
+                            <a href="https://pickup.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
-                        <article style={{backgroundImage: `url(${jeopardy})`}}>
-                            <header className="major">
-                                <h3>Open Jeopardy</h3>
-                                <p>App for playing Jeopardy-style quiz game, built with React</p>
-                            </header>
-                            <a href="https://openjeopardy.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
+                        <article style={{backgroundImage: `url(${donorsList})`}}>
+                        <header className="major">
+                            <h3>DonorsList</h3>
+                            <p>Hackathon project built to connect church leaders with those in need</p>
+                        </header>
+                        <a href="https://careportal.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
-                        <article style={{backgroundImage: `url(${vocab})`}}>
-                            <header className="major">
-                                <h3>Popup Vocab</h3>
-                                <p>React app to study vocabulary terms with definitions and pictures</p>
-                            </header>
-                            <a href="https://popupvocab.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
+                            <article style={{backgroundImage: `url(${jeopardy})`}}>
+                                <header className="major">
+                                    <h3>Open Jeopardy</h3>
+                                    <p>App for playing Jeopardy-style quiz game, built with React</p>
+                                </header>
+                                <a href="https://openjeopardy.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
                     </section>
                     <section id="two">

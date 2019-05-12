@@ -7,7 +7,7 @@ const BannerLanding = (props) => (
                 <h1>Chris DeSilva</h1>
             </header>
             <div className="content">
-                <p>I learned to code while teaching middle school. Imagine what I could accomplish when I’m working with you. </p>
+                <p>full-stack developer specializing in JavaScript with React and Node. Passionate about compassionate communication, cross-discipline collaboration, and my two crazy dogs. </p>
             </div>
         </div>
     </section>

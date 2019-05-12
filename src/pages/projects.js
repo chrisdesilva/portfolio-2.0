@@ -4,9 +4,9 @@ import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
 import banisters from '../assets/images/BanistersBus-min.jpg'
-import weather from '../assets/images/weather-landscape.png'
+import pickup from '../assets/images/pickup.png'
 import jeopardy from '../assets/images/openjeopardy.png'
-import vocab from '../assets/images/popupvocab.png'
+import donorsList from '../assets/images/donorslist2.png'
 
 const Landing = (props) => (
     <Layout>
@@ -36,25 +36,41 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>The Banisters</h3>
                             </header>
-                            <p>I had an opportunity to collaborate with clients and respond to feedback throughout the making of this website. It gave me a chance to play around with some different style ideas and helped build communication skills.</p>
+                            <p>In building out my band's website, I had the opportunity to collaborate and respond to feedback, experiment with layout, and add some new functionality. It gave me a chance to play around with some different style ideas and helped build communication skills while serving as an introduction to developing a client relationship.</p>
                             <ul className="actions">
                                 <li><a href="https://github.com/chrisdesilva/The-Banisters-Website" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
+                            </ul>
+                        </div>
+                    </div> 
+                </section>
+                <section>
+                    <a href="https://careportal.netlify.com/" target="_blank" rel="noopener noreferrer" className="image main">
+                        <img src={donorsList} alt="Login page for DonorsList app" />
+                    </a>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>DonorsList</h3>
+                            </header>
+                            <p>I took part in a Hackathon that partnered with a non-profit aimed at connecting church leaders with those in need. I led a team of 4 over the course of 2 days to design a demo that gave an idea of how ann app might function within their organization. We ended up taking 3rd place overall and did a great job learning from one another.</p>
+                            <ul className="actions">
+                                <li><a href="https://github.com/chrisdesilva/care-portal" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <a href="https://weathereport.netlify.com/" target="_blank" rel="noopener noreferrer" className="image main">
-                        <img src={weather} alt="Cartoon landscape with mountains and trees" />
+                    <a href="https://pickup.netlify.com/" target="_blank" rel="noopener noreferrer" className="image main">
+                        <img src={pickup} alt="Homepage screenshot for pick-up app" />
                     </a>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>WeatheReport</h3>
+                                <h3>Pick-up</h3>
                             </header>
-                            <p>I wanted to practice making API calls in a React app and decided to pull weather data from openweathermap.org. This project taught me a bit more about making dynamic API calls with input from the user.</p>
+                            <p>One of my favorite ways to stay active is playing basketball. A hassle that pops up from time to time is a court filled with so many people that you can't get on. Pick-up helps to solve that problem by taking your location and finding nearby basketball courts. I'm excited to continue working on this project as I envision adding court rankings/descriptions, a way for users to check in and see how many people are on a court at a given time, and ways for people to communicate around putting games together.</p>
                             <ul className="actions">
-                                <li><a href="https://github.com/chrisdesilva/weather-react-app" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
+                                <li><a href="https://github.com/chrisdesilva/pickup" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
                             </ul>
                         </div>
                     </div>
@@ -68,25 +84,9 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Open Jeopardy</h3>
                             </header>
-                            <p>Students have always enjoyed playing review games, so Open Jeopardy is an attempt to mix up the traditional feel of the classic quiz show with a bit more flexibility around categories and scoring. This project uses React and makes use of Hooks in addition to class-based components. I'm continuing to add to this project so check back for updates!</p>
+                            <p>Students have always enjoyed playing review games, so Open Jeopardy is an attempt to mix up the traditional feel of the classic quiz show with a bit more flexibility around categories and scoring. This project uses React and makes use of Hooks in addition to class-based components.</p>
                             <ul className="actions">
                                 <li><a href="https://github.com/chrisdesilva/open-jeopardy" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <a href="https://popupvocab.netlify.com/" target="_blank" rel="noopener noreferrer" className="image main">
-                        <img src={vocab} alt="Popup Vocab screenshot" />
-                    </a>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Popup Vocab</h3>
-                            </header>
-                            <p>I've always liked finding ways for students to engage in learning vocabulary. One consistent trend I've noticed is that the use of images is tremendously helpful for making words stick. This app allows users to add words, definitions, and images for new terms. Clicking on the term pops up a modal with the definition and image, allowing students to practice linking words with their meaning.</p>
-                            <ul className="actions">
-                                <li><a href="https://github.com/chrisdesilva/react-vocab" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
                             </ul>
                         </div>
                     </div>
