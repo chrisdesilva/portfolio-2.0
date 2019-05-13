@@ -36,7 +36,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>The Banisters</h3>
                             </header>
-                            <p>In building out my band's website, I had the opportunity to collaborate and respond to feedback, experiment with layout, and add some new functionality. It gave me a chance to play around with some different style ideas and helped build communication skills while serving as an introduction to developing a client relationship.</p>
+                            <p>In building out my band's website, I had the opportunity to collaborate and respond to feedback, experiment with layout, and add some new functionality. It gave me a chance to play around with some different style ideas and helped build communication skills.</p>
                             <ul className="actions">
                                 <li><a href="https://github.com/chrisdesilva/The-Banisters-Website" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
                             </ul>
@@ -60,7 +60,7 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <a href="https://pickup.netlify.com/" target="_blank" rel="noopener noreferrer" className="image main">
+                    <a href="https://pick-up-1.firebaseapp.com/" target="_blank" rel="noopener noreferrer" className="image main">
                         <img src={pickup} alt="Homepage screenshot for pick-up app" />
                     </a>
                     <div className="content">
@@ -68,7 +68,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Pick-up</h3>
                             </header>
-                            <p>One of my favorite ways to stay active is playing basketball. A hassle that pops up from time to time is a court filled with so many people that you can't get on. Pick-up helps to solve that problem by taking your location and finding nearby basketball courts. I'm excited to continue working on this project as I envision adding court rankings/descriptions, a way for users to check in and see how many people are on a court at a given time, and ways for people to communicate around putting games together.</p>
+                            <p>One of my favorite ways to stay active is playing basketball. A hassle that pops up from time to time is a court filled with so many people that you can't get on. Pick-up helps to solve that problem by taking your location and finding nearby basketball courts. This app was exciting for me because I really got to dive in with Firebase. I was able to successfully link to a database and add Google OAuth. I'm looking forward to adding more features like player profiles and court ratings. </p>
                             <ul className="actions">
                                 <li><a href="https://github.com/chrisdesilva/pickup" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
                             </ul>

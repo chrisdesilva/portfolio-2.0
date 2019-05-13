@@ -37,7 +37,7 @@ class HomeIndex extends React.Component {
                                 <h3>Pick-up</h3>
                                 <p>React app that displays nearby basketball courts</p>
                             </header>
-                            <a href="https://pickup.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
+                            <a href="https://pick-up-1.firebaseapp.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
                         <article style={{backgroundImage: `url(${donorsList})`}}>
                         <header className="major">
