@@ -26,7 +26,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-file"></span>
                         <h3>Resume</h3>
-                        <a href="https://docs.google.com/document/d/1YxH0v3nwra2BoitICTWfo-Fa8CGQCAI9eR00Tth69Rc/edit?usp=sharing" target="_blank">Get to know me in one page</a>
+                        <a href="https://docs.google.com/document/d/1h4nJOzUTo2CtRs5Q0HsE_1vAQ6xVXj1uAAJ9EvpGYDY/edit?usp=sharing" target="_blank">Get to know me in one page</a>
                     </div>
                 </section>
             </section>
