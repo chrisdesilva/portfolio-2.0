@@ -5,7 +5,7 @@ import BannerLanding from '../components/BannerLanding'
 
 import banisters from '../assets/images/BanistersBus-min.jpg'
 import pickup from '../assets/images/pickup.png'
-import jeopardy from '../assets/images/openjeopardy.png'
+import coppershot from '../assets/images/coppershot.png'
 import donorsList from '../assets/images/donorslist2.png'
 
 const Landing = (props) => (
@@ -76,17 +76,17 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <a href="https://openjeopardy.netlify.com/" target="_blank" rel="noopener noreferrer" className="image main">
-                        <img src={jeopardy} alt="open jeopardy game board screenshot" />
+                    <a href="https://coppershot.netlify.com/" target="_blank" rel="noopener noreferrer" className="image main">
+                        <img src={coppershot} alt="Copper Shot Distillery in Bastrop, TX" />
                     </a>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Open Jeopardy</h3>
+                                <h3>Copper Shot Distillery</h3>
                             </header>
-                            <p>Students have always enjoyed playing review games, so Open Jeopardy is an attempt to mix up the traditional feel of the classic quiz show with a bit more flexibility around categories and scoring. This project uses React and makes use of Hooks in addition to class-based components.</p>
+                            <p>A hidden gem 30 miles east of Austin, Copper Shot Distillery in Bastrop makes small-batch moonshine and spirits with rainwater and local grains. This site was put together with React and React Router, using Semantic-UI-React to help with styling.</p>
                             <ul className="actions">
-                                <li><a href="https://github.com/chrisdesilva/open-jeopardy" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
+                                <li><a href="https://github.com/chrisdesilva/coppershot" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
                             </ul>
                         </div>
                     </div>

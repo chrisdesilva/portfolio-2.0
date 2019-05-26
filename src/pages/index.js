@@ -5,7 +5,7 @@ import Banner from '../components/Banner'
 
 import donorsList from '../assets/images/donorslist.png'
 import banisters from '../assets/images/BanistersBus-min.jpg'
-import jeopardy from '../assets/images/openjeopardy.png'
+import coppershot from '../assets/images/coppershot.png'
 import pickup from '../assets/images/pickup.png'
 
 class HomeIndex extends React.Component {
@@ -46,12 +46,12 @@ class HomeIndex extends React.Component {
                         </header>
                         <a href="https://careportal.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
-                            <article style={{backgroundImage: `url(${jeopardy})`}}>
+                            <article style={{backgroundImage: `url(${coppershot})`}}>
                                 <header className="major">
-                                    <h3>Open Jeopardy</h3>
-                                    <p>App for playing Jeopardy-style quiz game, built with React</p>
+                                    <h3>Copper Shot Distillery</h3>
+                                    <p>Website for Distillery in Bastrop, TX</p>
                                 </header>
-                                <a href="https://openjeopardy.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
+                                <a href="https://coppershot.netlify.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
                     </section>
                     <section id="two">
