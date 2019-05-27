@@ -17,7 +17,7 @@ const Generic = (props) => (
                     <header className="major">
                         <h1>About Me</h1>
                     </header>
-                    <span className="image main"><img style={{height: '50rem', width: 'auto'}} src={suit} alt="standing with suit and tie" /></span>
+                    <span className="image main"><img style={{height: '25rem', width: 'auto', margin: 'auto'}} src={suit} alt="standing with suit and tie" /></span>
                     <p>
                         The thing I love about coding is that I am able to blend my creative and analytical sides to produce something really cool.  I love learning about and experimenting with new technologies and I look forward to sharing my knowledge with others.  I plan to apply the skills I’ve gained through teaching and leadership roles to eventually serve as a mentor to new developers. 
                     </p>
