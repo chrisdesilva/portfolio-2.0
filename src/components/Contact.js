@@ -1,5 +1,6 @@
 import React from 'react'
 import hana from '../assets/images/roadtohana.jpg'
+import resume from '../assets/images/Chris_DeSilva_Developer_Resume.pdf'
 
 const Contact = (props) => (
     <section id="contact">
@@ -26,7 +27,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-file"></span>
                         <h3>Resume</h3>
-                        <a href="https://drive.google.com/file/d/1KpsfQ_TGLNoF3oq28qmjLVhCKx7EScud/view?usp=sharing" target="_blank">Get to know me in one page</a>
+                        <a href={resume} download>Get to know me in one page</a>
                     </div>
                 </section>
             </section>
