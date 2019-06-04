@@ -36,7 +36,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pickup})`}}>
                             <header className="major">
                                 <h3>Pick-up</h3>
-                                <p>React app that displays nearby basketball courts</p>
+                                <p>React app designed to help schedule pickup basketball games on nearby courts</p>
                             </header>
                             <a href="https://pick-up-1.firebaseapp.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
