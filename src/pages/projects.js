@@ -34,7 +34,7 @@ const Landing = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Pick-up</h3>
+                                <h3>Shoot For Teams</h3>
                             </header>
                             <p>One of my favorite ways to stay active is playing basketball. A hassle that pops up from time to time is a court filled with so many people that you can't get on. Pick-up helps to solve that problem by taking your location and finding nearby basketball courts. This app was exciting for me because I really got to dive in with Firebase. I was able to successfully link to a database and add Google OAuth. I'm looking forward to adding more features like player profiles and court ratings. </p>
                             <ul className="actions">
