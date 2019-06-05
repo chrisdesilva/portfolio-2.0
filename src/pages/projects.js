@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
 import banisters from '../assets/images/BanistersBus-min.jpg'
-import pickup from '../assets/images/pickup.png'
+import shootforteams from '../assets/images/shootforteams.png'
 import coppershot from '../assets/images/coppershot.png'
 import donorsList from '../assets/images/donorslist2.png'
 
@@ -27,6 +27,22 @@ const Landing = (props) => (
                 </div>
             </section>
             <section id="two" className="spotlights">
+                <section>
+                    <a href="https://shootforteams.com" target="_blank" rel="noopener noreferrer" className="image main">
+                        <img src={shootforteams} alt="Homepage screenshot for pick-up app" />
+                    </a>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Pick-up</h3>
+                            </header>
+                            <p>One of my favorite ways to stay active is playing basketball. A hassle that pops up from time to time is a court filled with so many people that you can't get on. Pick-up helps to solve that problem by taking your location and finding nearby basketball courts. This app was exciting for me because I really got to dive in with Firebase. I was able to successfully link to a database and add Google OAuth. I'm looking forward to adding more features like player profiles and court ratings. </p>
+                            <ul className="actions">
+                                <li><a href="https://github.com/chrisdesilva/pickup" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
                 <section>
                     <a href="https://www.thebanistersmusic.com" target="_blank" rel="noopener noreferrer" className="image main">
                         <img src={banisters} alt="Band in front of graffiti bus" />
@@ -55,22 +71,6 @@ const Landing = (props) => (
                             <p>I took part in a Hackathon that partnered with a non-profit aimed at connecting church leaders with those in need. I led a team of 4 over the course of 2 days to design a demo that gave an idea of how ann app might function within their organization. We ended up taking 3rd place overall and did a great job learning from one another.</p>
                             <ul className="actions">
                                 <li><a href="https://github.com/chrisdesilva/care-portal" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <a href="https://pick-up-1.firebaseapp.com/" target="_blank" rel="noopener noreferrer" className="image main">
-                        <img src={pickup} alt="Homepage screenshot for pick-up app" />
-                    </a>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Pick-up</h3>
-                            </header>
-                            <p>One of my favorite ways to stay active is playing basketball. A hassle that pops up from time to time is a court filled with so many people that you can't get on. Pick-up helps to solve that problem by taking your location and finding nearby basketball courts. This app was exciting for me because I really got to dive in with Firebase. I was able to successfully link to a database and add Google OAuth. I'm looking forward to adding more features like player profiles and court ratings. </p>
-                            <ul className="actions">
-                                <li><a href="https://github.com/chrisdesilva/pickup" target="blank" rel="noopener noreferrer" className="button">Repo</a></li>
                             </ul>
                         </div>
                     </div>

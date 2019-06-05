@@ -7,7 +7,7 @@ import Banner from '../components/Banner'
 import donorsList from '../assets/images/donorslist.png'
 import banisters from '../assets/images/BanistersBus-min.jpg'
 import coppershot from '../assets/images/coppershot.png'
-import pickup from '../assets/images/pickup.png'
+import shootforteams from '../assets/images/shootforteams.png'
 
 class HomeIndex extends React.Component {
     render() {
@@ -33,12 +33,12 @@ class HomeIndex extends React.Component {
                             </header>
                             <a href="https://www.thebanistersmusic.com" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
-                        <article style={{backgroundImage: `url(${pickup})`}}>
+                        <article style={{backgroundImage: `url(${shootforteams})`}}>
                             <header className="major">
-                                <h3>Pick-up</h3>
+                                <h3>Shoot For Teams</h3>
                                 <p>React app designed to help schedule pickup basketball games on nearby courts</p>
                             </header>
-                            <a href="https://pick-up-1.firebaseapp.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
+                            <a href="https://shootforteams.com/" target="_blank" rel="noopener noreferrer" className="link primary"></a>
                         </article>
                         <article style={{backgroundImage: `url(${donorsList})`}}>
                         <header className="major">
